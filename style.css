@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 110vh;
+    background: #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* hero start */
+
+.hero{
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+    margin: 40px 10rem;
+    width: 25%;
+    height: 23vh;
+}
+
+.bio{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(205, 205, 205);
+}
+
+.nama-link{
+    padding: 0 10px;
+}
+
+.logo{
+    width: 110px;
+    border-radius: 100px;
+}
+
+.icon{
+    padding: 0 5px;
+}
+
+.linked{
+    width: 24px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+}
+
+.kata{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+/* hero end */
+
+
+/* portfolio start */
+
+.box{
+    margin: -14rem 40rem;
+    background: rgb(230, 230, 230);
+    width: 18%;
+    height: 8vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.project-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.project-logo{
+    width: 40px;
+}
+
+.project-txt{
+    padding-left: 25px;
+    font-size: 1.2rem;
+}
+
+.big-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 18% 42%;
+    width: 50%;
+}
+
+.pr{
+    background: rgb(230, 230, 230);
+    border-radius: 10px;
+    width: 45%;
+    height: 40vh;
+    margin: 10px;
+    padding: 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* kotak 1 start */
+
+.kantin-txt , .profil-txt , .ujian-txt{
+    margin: 5px 10px;
+    font-size: 30px;
+}
+
+.kantin-img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.kantin-kata , .profil-kata , .ujian-kata{
+    font-weight: 500;
+    margin: 15px 10px;
+    font-size: 15px;
+}
+
+.kantin-tech , .profil-tech , .ujian-tech{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 10px;
+}
+
+.kantin-tech p{
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* kotak 1 end */
+
+
+/* kotak 2 start */
+
+.profil-img , .ujian-img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.profil-tech p{
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: -30px 10px;
+}
+
+/* kotak 2 end */
+
+
+/* kotak 3 start */
+
+.ujian-tech p{
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: -30px 10px;
+}
+
+/* kotak 3 end */
+
+
+/* portfolio end */
+
+
+
+/* media breakpoins */
+
+/* 1241 */
+
+@media (max-width: 1241px){
+    .hero{
+        width: 20%;
+        height: 30vh;
+    }
+    
+    .logo{
+        width: 80px;
+    }
+    
+    .nama{
+        font-size: 9px;
+    }
+
+    .box{
+        margin: -14rem 33rem;
+    }
+
+    .project-txt{
+        padding-left: 5px;
+    }
+
+    .pr{
+        height: 50vh;
+    }
+
+    .kantin-tech{
+        margin: 40px 10px;
+    }
+
+    .ujian-tech{
+        margin: 50px 10px;
+    }
+}
+
+/* 1200 */
+
+@media (max-width: 1200px){
+    .box{
+        margin: -14rem 32rem;
+    }
+
+    .big-box{
+        margin: 20% 42%;
+    }
+
+    .pr{
+        width: 42%;
+        height: 37vh;
+    }
+
+    .kantin-txt , .profil-txt , .ujian-txt{
+        font-size: 20px;
+    }
+
+    .kantin-kata , .profil-kata , .ujian-kata{
+        font-size: 13px;
+        margin: -10px 10px;
+    }
+
+    .kantin-tech p{
+        font-size: 13px;
+    }
+
+    .profil-tech p{
+        font-size: 13px;
+    }
+
+    .ujian-tech p{
+        font-size: 13px;
+    }
+}
+
+/* 1140 */
+
+@media (max-width: 1140px){
+    .box{
+        margin: -14rem 30.5rem;
+    }
+}
+
+/* 1080 */
+
+@media (max-width: 1080px){
+    .kata{
+        font-size: 12px;
+    }
+
+    .box{
+        margin: -14rem 29rem;
+    }
+
+    .project-logo{
+        width: 35px;
+    }
+
+    .project-txt{
+        font-size: 15px;
+    }
+
+    .big-box{
+        margin: 25% 42%;
+    }
+
+}
+
+/* 980 */
+
+@media (max-width: 980px){
+    .hero{
+        margin: 40px 5rem;
+        width: 25%;
+    }
+
+    .box{
+        margin: -14rem 24.5rem;
+    }
+
+    .big-box{
+        width:60%;
+        margin: 25% 39%;
+    }
+
+    .pr{
+        width: 44%;
+        height: 37vh;
+    }
+}
+
+/* 880 */
+
+@media (max-width: 880px){
+    .box{
+        margin: -14rem 22rem;
+    }
+
+    .project-logo{
+        width: 25px;
+    }
+
+    .project-txt{
+        font-size: 12px;
+    }
+
+    .big-box{
+        margin: 28% 39%;
+    }
+
+    .pr{
+        width: 44%;
+        height: 40vh;
+    }
+
+    .kantin-tech{
+        margin: 55px 5px;
+    }
+
+    .profil-tech{
+        margin: 90px 5px;
+    }
+
+    .ujian-tech{
+        margin: 70px 5px;
+    }    
+}
+
+/* 833 */
+
+@media (max-width: 833px){
+    .hero{
+        margin: 40px 2rem;
+        width: 25%;
+    }
+
+    .logo{
+        width: 70px;
+    }
+
+    .link{
+        padding: 0 0c;
+    }
+
+    .icon{
+        width: 20px;
+    }
+
+    .nama{
+        font-size: 8px;
+    }
+
+    .box{
+        margin: -14rem 19rem;
+    }
+
+    .big-box{
+        width: 65%;
+        margin: 28% 35%;
+    }
+}
+
+/* 740 */
+
+@media (max-width: 740px){
+    .hero{
+        margin: 40px 2rem;
+        width: 27%;
+    }
+
+    .kata{
+        font-size: 11px;
+    }
+
+    .box{
+        margin: -14rem 17rem;
+        width: 20%;
+        height: 8vh;
+    }
+
+    .project-box{
+        padding: 0 1px;
+    }
+
+    .big-box{
+        margin: 34% 35%;
+        width: 75%;
+    }
+
+    .pr{
+        width: 38%;
+        height: 35vh;
+    }
+
+    .kantin-tech{
+        margin: 40px 0;
+    }
+
+    .kantin-tech p , .ujian-tech p{
+        margin: 0 5px;
+        font-size: 12px;
+    }
+
+    .profil-tech{
+        margin: 75px 0;
+    }
+
+    .ujian-tech{
+        margin: 25px 0;
+    }  
+}
+
+/* 700 */
+
+@media (max-width: 700px){
+    .box{
+        margin: -14rem 16rem;
+        width: 20%;
+        height: 8vh;
+    }
+
+    .big-box{
+        width: 64%;
+    }
+
+    .pr{
+        width: 43%;
+    }
+}
+
+/* 662 */
+
+@media (max-width: 662px){
+    .hero{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+        margin: 120px auto;
+        width: 50%;
+        height: 23vh;
+        background: #ddd;
+    }
+    
+    .bio{
+        padding: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        background: #ddd;
+    }
+    
+    .nama-link{
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 150px;
+        border-radius: 100px;
+    }
+
+    .nama{
+        font-size: 1rem;
+    }
+    
+    .icon{
+        padding: 0 5px;
+    }
+    
+    .linked{
+        width: 24px;
+    }
+    
+    .link{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .kata{
+        font-size: 13px;
+        font-weight: 500;
+        padding: 5px 10px;
+    }
+
+    .box{
+        margin: 10rem auto;
+        width: 25%;
+        height: 8vh;
+    }
+
+    .project-txt{
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .big-box{
+        display: flex;
+        justify-content: center;
+        margin: -20% auto;
+        width: 40%;
+    }
+
+    .pr{
+        width: 80%;
+    }
+}
+
+/* 520 */
+
+@media (max-width: 520px){
+    .box{
+        margin: 10rem auto;
+        width: 30%;
+        height: 8vh;
+    }
+
+    .big-box{
+        display: flex;
+        justify-content: center;
+        margin: -20% auto;
+        width: 50%;
+    }
+
+    .pr{
+        width: 90%;
+    }
+
+    .pr:nth-child(3){
+        height: 40vh;
+    }
+
+    .kantin-tech{
+        margin: 35px 0;
+    }
+
+    .profil-tech{
+        margin: 65px 0;
+    }
+
+    .ujian-tech{
+        margin: 50px 0;
+    }  
+}
+
+/* 400 */
+
+@media (max-width: 400px){
+    .hero{
+        margin: 150px auto;
+        width: 70%;
+    }
+
+    .box{
+        width: 40%;
+    }
+
+    .big-box{
+        width: 60%;
+    }
+
+    .pr{
+        width: 100%;
+    }
+
+    .kantin-tech{
+        margin: 40px 0;
+    }
+
+    .profil-tech{
+        margin: 70px 0;
+    }
+
+    .ujian-tech{
+        margin: 55px 0;
+    }  
+}
+
+/* 343 */
+
+@media (max-width: 343px){
+    .box{
+        width: 50%;
+    }
+
+    .big-box{
+        width: 70%;
+        margin: -40% auto;
+    }
+
+    .pr{
+        width: 100%;
+    }
+
+    .kantin-tech{
+        margin: 40px 0;
+    }
+
+    .profil-tech{
+        margin: 70px 0;
+    }
+
+    .ujian-tech{
+        margin: 55px 0;
+    }  
+}
+
+/* 300 */
+
+@media (max-width: 300px){
+    .box{
+        width: 55%;
+    }
+
+    .big-box{
+        width: 80%;
+    }
+}
